@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { TrendingUp, FileText, Briefcase, Smartphone, Check, ArrowLeft } from 'lucide-react';
+import { TrendingUp, FileText, Briefcase, Smartphone, Check, ArrowLeft, Users, Clock, Headphones, Code, Database, Cloud, Shield } from 'lucide-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -56,11 +56,11 @@ const EducationService = () => {
             data-aos-duration="800"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 md:mb-8 bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent">
-              Financial <span className="text-blue-400">Education</span>
+              ServiceNow <span className="text-blue-400">Courses</span>
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-blue-100 max-w-3xl lg:max-w-4xl mx-auto leading-relaxed mb-8 md:mb-10">
-              Comprehensive financial education and planning services to empower your financial decisions 
-              and help you achieve long-term success.
+              Comprehensive ServiceNow training and certification programs to master IT Service Management, 
+              DevOps, and digital workflow automation. Become a ServiceNow expert with our industry-leading courses.
             </p>
             <div 
               className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center items-center"
@@ -68,10 +68,10 @@ const EducationService = () => {
               data-aos-delay="400"
             >
               <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 md:px-10 py-3 md:py-4 rounded-xl font-bold text-base md:text-lg transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-blue-500/25">
-                Start Learning Today
+                Enroll Now
               </button>
               <button className="border-2 border-white/50 hover:border-white text-white hover:bg-white/10 px-6 md:px-10 py-3 md:py-4 rounded-xl font-bold text-base md:text-lg transition-all duration-300 transform hover:scale-105 backdrop-blur-sm">
-                Explore Courses
+                View Course Catalog
               </button>
             </div>
           </div>
@@ -86,16 +86,16 @@ const EducationService = () => {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 md:mb-6">Financial Education Programs</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 md:mb-6">ServiceNow Training Programs</h2>
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Empowering you with the knowledge and tools to make informed financial decisions 
-            and build a secure financial future through comprehensive education programs.
+            Master the ServiceNow platform with our comprehensive training programs designed for beginners 
+            to advanced professionals. Get certified and advance your career in IT service management.
           </p>
         </div>
 
-        {/* Education Programs Grid */}
+        {/* ServiceNow Courses Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mb-12 md:mb-20">
-          {/* Wealth Management Education */}
+          {/* ServiceNow Administration */}
           <div 
             className="bg-gradient-to-br from-[#1e2d47] to-[#15202e] backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-2xl border border-gray-800 hover:border-blue-500/50 transition-all duration-300 group"
             data-aos="fade-right"
@@ -103,16 +103,16 @@ const EducationService = () => {
           >
             <div className="flex items-center mb-6 md:mb-8">
               <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mr-4 md:mr-6 group-hover:scale-110 transition-transform duration-300">
-                <TrendingUp className="w-6 h-6 md:w-8 md:h-8 text-white" />
+                <Code className="w-6 h-6 md:w-8 md:h-8 text-white" />
               </div>
-              <h3 className="text-2xl md:text-3xl font-bold text-white">Wealth Management</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-white">ServiceNow Administration</h3>
             </div>
             <p className="text-gray-300 mb-6 md:mb-8 text-base md:text-lg leading-relaxed">
-              Master the principles of wealth creation, preservation, and growth through our comprehensive 
-              wealth management education programs.
+              Comprehensive training for ServiceNow System Administration. Learn to configure, maintain, 
+              and customize ServiceNow instances for optimal performance and user experience.
             </p>
             <ul className="space-y-3 md:space-y-4">
-              {['Investment strategies', 'Portfolio management', 'Risk assessment', 'Estate planning', 'Tax optimization', 'Retirement planning'].map((item, idx) => (
+              {['System Administration Fundamentals', 'User Interface Configuration', 'Security and Access Control', 'Workflow Configuration', 'Data Management', 'Instance Management'].map((item, idx) => (
                 <li key={idx} className="flex items-center text-gray-200 text-base md:text-lg">
                   <Check className="w-4 h-4 md:w-5 md:h-5 text-blue-400 mr-3 md:mr-4 flex-shrink-0" />
                   {item}
@@ -121,7 +121,7 @@ const EducationService = () => {
             </ul>
           </div>
 
-          {/* Financial Planning Education */}
+          {/* ServiceNow Development */}
           <div 
             className="bg-gradient-to-br from-[#1e2d47] to-[#15202e] backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-2xl border border-gray-800 hover:border-green-500/50 transition-all duration-300 group"
             data-aos="fade-left"
@@ -129,16 +129,16 @@ const EducationService = () => {
           >
             <div className="flex items-center mb-6 md:mb-8">
               <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mr-4 md:mr-6 group-hover:scale-110 transition-transform duration-300">
-                <FileText className="w-6 h-6 md:w-8 md:h-8 text-white" />
+                <Database className="w-6 h-6 md:w-8 md:h-8 text-white" />
               </div>
-              <h3 className="text-2xl md:text-3xl font-bold text-white">Financial Planning</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-white">ServiceNow Development</h3>
             </div>
             <p className="text-gray-300 mb-6 md:mb-8 text-base md:text-lg leading-relaxed">
-              Learn to create comprehensive financial plans that align with your life goals and 
-              provide long-term financial security.
+              Advanced development training for creating custom applications, scripting, and extending 
+              ServiceNow platform capabilities using JavaScript and ServiceNow APIs.
             </p>
             <ul className="space-y-3 md:space-y-4">
-              {['Goal setting techniques', 'Budget planning', 'Debt management', 'Savings strategies', 'Investment planning', 'Risk management'].map((item, idx) => (
+              {['Client and Server Scripting', 'Custom Application Development', 'REST API Integration', 'Business Rule Configuration', 'UI Policy and Actions', 'Script Includes'].map((item, idx) => (
                 <li key={idx} className="flex items-center text-gray-200 text-base md:text-lg">
                   <Check className="w-4 h-4 md:w-5 md:h-5 text-green-400 mr-3 md:mr-4 flex-shrink-0" />
                   {item}
@@ -147,7 +147,7 @@ const EducationService = () => {
             </ul>
           </div>
 
-          {/* Business Finance Education */}
+          {/* IT Service Management */}
           <div 
             className="bg-gradient-to-br from-[#1e2d47] to-[#15202e] backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-2xl border border-gray-800 hover:border-purple-500/50 transition-all duration-300 group"
             data-aos="fade-right"
@@ -157,14 +157,14 @@ const EducationService = () => {
               <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mr-4 md:mr-6 group-hover:scale-110 transition-transform duration-300">
                 <Briefcase className="w-6 h-6 md:w-8 md:h-8 text-white" />
               </div>
-              <h3 className="text-2xl md:text-3xl font-bold text-white">Business Finance</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-white">IT Service Management</h3>
             </div>
             <p className="text-gray-300 mb-6 md:mb-8 text-base md:text-lg leading-relaxed">
-              Essential financial education for entrepreneurs and business professionals to 
-              optimize financial performance and drive growth.
+              Master ITIL-based service management processes using ServiceNow. Learn incident, problem, 
+              change, and service catalog management implementations.
             </p>
             <ul className="space-y-3 md:space-y-4">
-              {['Financial statements', 'Cash flow management', 'Business valuation', 'Funding strategies', 'Financial modeling', 'Risk assessment'].map((item, idx) => (
+              {['Incident Management', 'Problem Management', 'Change Management', 'Service Catalog', 'CMDB Configuration', 'Service Level Management'].map((item, idx) => (
                 <li key={idx} className="flex items-center text-gray-200 text-base md:text-lg">
                   <Check className="w-4 h-4 md:w-5 md:h-5 text-purple-400 mr-3 md:mr-4 flex-shrink-0" />
                   {item}
@@ -173,7 +173,7 @@ const EducationService = () => {
             </ul>
           </div>
 
-          {/* Digital Finance Education */}
+          {/* ServiceNow Implementation */}
           <div 
             className="bg-gradient-to-br from-[#1e2d47] to-[#15202e] backdrop-blur-sm rounded-2xl p-6 md:p-8 shadow-2xl border border-gray-800 hover:border-orange-500/50 transition-all duration-300 group"
             data-aos="fade-left"
@@ -181,16 +181,16 @@ const EducationService = () => {
           >
             <div className="flex items-center mb-6 md:mb-8">
               <div className="w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center mr-4 md:mr-6 group-hover:scale-110 transition-transform duration-300">
-                <Smartphone className="w-6 h-6 md:w-8 md:h-8 text-white" />
+                <Cloud className="w-6 h-6 md:w-8 md:h-8 text-white" />
               </div>
-              <h3 className="text-2xl md:text-3xl font-bold text-white">Digital Finance</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-white">Implementation & Deployment</h3>
             </div>
             <p className="text-gray-300 mb-6 md:mb-8 text-base md:text-lg leading-relaxed">
-              Master modern digital financial tools and platforms to efficiently manage your 
-              finances in today's digital world.
+              Learn end-to-end ServiceNow implementation methodologies, deployment strategies, and 
+              best practices for successful platform rollout and configuration.
             </p>
             <ul className="space-y-3 md:space-y-4">
-              {['Online banking', 'Digital investing', 'Mobile payments', 'Financial apps', 'Security best practices', 'Automation tools'].map((item, idx) => (
+              {['Implementation Methodology', 'Requirements Gathering', 'Configuration Best Practices', 'Testing Strategies', 'Deployment Planning', 'Post-Implementation Support'].map((item, idx) => (
                 <li key={idx} className="flex items-center text-gray-200 text-base md:text-lg">
                   <Check className="w-4 h-4 md:w-5 md:h-5 text-orange-400 mr-3 md:mr-4 flex-shrink-0" />
                   {item}
@@ -200,16 +200,16 @@ const EducationService = () => {
           </div>
         </div>
 
-        {/* Learning Process Section */}
+        {/* Certification Path Section */}
         <div 
           className="text-center mb-12 md:mb-20"
           data-aos="fade-up"
           data-aos-delay="500"
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 md:mb-6">Our Learning Journey</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 md:mb-6">ServiceNow Certification Path</h2>
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            A structured approach to financial education that ensures comprehensive understanding 
-            and practical application of financial concepts.
+            Structured learning paths to help you achieve ServiceNow certifications and advance your career 
+            in the growing ServiceNow ecosystem.
           </p>
         </div>
 
@@ -217,26 +217,26 @@ const EducationService = () => {
           {[
             { 
               num: '1', 
-              title: 'Assessment', 
-              desc: 'Evaluate your current financial knowledge and identify learning objectives.',
+              title: 'Fundamentals', 
+              desc: 'Start with ServiceNow basics and platform fundamentals',
               color: 'from-blue-500 to-blue-600'
             },
             { 
               num: '2', 
-              title: 'Learning', 
-              desc: 'Engage with interactive courses and practical financial concepts.',
+              title: 'Administration', 
+              desc: 'Master system administration and configuration',
               color: 'from-green-500 to-green-600'
             },
             { 
               num: '3', 
-              title: 'Application', 
-              desc: 'Apply learned concepts to real-world financial scenarios and cases.',
+              title: 'Development', 
+              desc: 'Learn advanced scripting and application development',
               color: 'from-purple-500 to-purple-600'
             },
             { 
               num: '4', 
-              title: 'Mastery', 
-              desc: 'Achieve financial literacy and confidence in managing your finances.',
+              title: 'Implementation', 
+              desc: 'Become an expert in deployment and implementation',
               color: 'from-orange-500 to-orange-600'
             }
           ].map((step, idx) => (
@@ -255,7 +255,7 @@ const EducationService = () => {
           ))}
         </div>
 
-        {/* Expert Guidance Section */}
+        {/* Training Features Section */}
         <div 
           className="bg-gradient-to-r from-blue-900/80 to-purple-900/80 backdrop-blur-md rounded-3xl p-6 md:p-12 text-white border border-white/10 shadow-2xl"
           data-aos="zoom-in"
@@ -263,13 +263,13 @@ const EducationService = () => {
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Learn from Financial Experts</h2>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Why Choose Our ServiceNow Training</h2>
               <p className="text-lg md:text-xl text-blue-100 mb-8 leading-relaxed">
-                Our team of certified financial educators and industry professionals brings decades 
-                of experience to help you build financial literacy and confidence.
+                Our ServiceNow courses are designed by industry experts with real-world experience. 
+                Get hands-on training with live instances and practical scenarios.
               </p>
               <ul className="space-y-4">
-                {['Certified Financial Educators', 'Industry Practitioners', 'Personalized Learning Paths', 'Continuous Support'].map((item, idx) => (
+                {['Certified ServiceNow Instructors', 'Hands-on Lab Environment', 'Real-world Case Studies', 'Exam Preparation Support', 'Job Placement Assistance', 'Lifetime Access to Materials'].map((item, idx) => (
                   <li key={idx} className="flex items-center text-blue-100 text-lg">
                     <Check className="w-5 h-5 text-white mr-4 flex-shrink-0" />
                     <span>{item}</span>
@@ -281,7 +281,7 @@ const EducationService = () => {
               <div 
                 className="w-full h-64 md:h-80 rounded-2xl overflow-hidden shadow-2xl"
                 style={{
-                  backgroundImage: 'linear-gradient(135deg, rgba(15, 23, 42, 0.8), rgba(30, 41, 59, 0.6)), url(https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80)',
+                  backgroundImage: 'linear-gradient(135deg, rgba(15, 23, 42, 0.8), rgba(30, 41, 59, 0.6)), url(https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)',
                   backgroundSize: 'cover',
                   backgroundPosition: 'center'
                 }}
@@ -289,10 +289,10 @@ const EducationService = () => {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center p-6">
                     <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4">
-                      <TrendingUp className="w-8 h-8 text-white" />
+                      <Shield className="w-8 h-8 text-white" />
                     </div>
-                    <h3 className="text-2xl font-bold text-white mb-2">Interactive Learning</h3>
-                    <p className="text-blue-100">Engage with real-world financial scenarios</p>
+                    <h3 className="text-2xl font-bold text-white mb-2">Official Preparation</h3>
+                    <p className="text-blue-100">Certified training for ServiceNow exams</p>
                   </div>
                 </div>
               </div>

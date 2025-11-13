@@ -187,7 +187,7 @@ const FirstScreen = () => {
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight"
             style={{ opacity: 0 }}
           >
-            Financial Services
+            L & D  Services
           </h1>
           <p
             ref={subtitleRef}
@@ -214,7 +214,7 @@ const FirstScreen = () => {
               <path d="M12 3L2 9h3v11h14V9h3L12 3zm0 2.5l6 4V18H6V9.5l6-4zM8 11h2v5H8v-5zm3 0h2v5h-2v-5zm3 0h2v5h-2v-5z"/>
             </svg>
             <h3 className="text-xl md:text-2xl font-bold text-white mb-1">Banking</h3>
-            <p className="text-xs text-blue-100/80 px-4">Digital Solutions</p>
+            <p className="text-xs text-blue-100/80 px-4">Loans</p>
           </div>
 
           {/* Insurance Circle */}
@@ -232,7 +232,7 @@ const FirstScreen = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
             </svg>
             <h3 className="text-xl md:text-2xl font-bold text-white mb-1">Insurance</h3>
-            <p className="text-xs text-cyan-100/80 px-4">Full Coverage</p>
+            <p className="text-xs text-cyan-100/80 px-4">Life and General</p>
           </div>
 
           {/* Education Circle */}
@@ -250,7 +250,7 @@ const FirstScreen = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
             </svg>
             <h3 className="text-xl md:text-2xl font-bold text-white mb-1">Education</h3>
-            <p className="text-xs text-indigo-100/80 px-4">Smart Planning</p>
+            <p className="text-xs text-indigo-100/80 px-4">It services</p>
           </div>
         </div>
 
