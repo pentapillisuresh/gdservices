@@ -58,7 +58,7 @@ const Navbar = () => {
               onClick={openQuotePopup}
             >
               <i className="ri-share-line"></i>
-              Share & Earn
+              Refer & Earn
             </button>
           </div>
         </div>
