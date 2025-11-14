@@ -27,7 +27,7 @@ const Navbar = () => {
             className="text-slate-300 hover:text-white transition-colors"
             onClick={() => handleNavigation('/banking')}
           >
-            Banking
+            Loans
           </button>
           <button 
             className="text-slate-300 hover:text-white transition-colors"
@@ -39,7 +39,7 @@ const Navbar = () => {
             className="text-slate-300 hover:text-white transition-colors"
             onClick={() => handleNavigation('/education')}
           >
-            Education
+            IT services
           </button>
           <button 
             className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full transition-all duration-300 transform hover:scale-105"

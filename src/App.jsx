@@ -1,3 +1,4 @@
+// App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import FirstScreen from './components/FirstScreen';
@@ -7,6 +8,7 @@ import InsuranceService from './components/InsuranceService';
 import EducationService from './components/EducationService';
 import Navbar from './pages/Navbar';
 import Footer from './pages/Footer';
+import FloatingQuoteWrapper from './components/FloatingQuoteWrapper';
 import 'remixicon/fonts/remixicon.css';
 
 function App() {
@@ -34,6 +36,9 @@ function App() {
           <Route path="/first" element={null} />
           <Route path="*" element={<Footer />} />
         </Routes>
+
+        {/* Floating Quote Button - shown on all pages except FirstScreen */}
+        <FloatingQuoteWrapper />
       </div>
     </Router>
   );
