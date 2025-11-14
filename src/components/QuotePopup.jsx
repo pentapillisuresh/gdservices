@@ -35,7 +35,7 @@ const QuotePopup = ({ isOpen, onClose }) => {
     formDataToSend.append('_captcha', 'false');
     formDataToSend.append('_template', 'table');
 
-    const response = await fetch('https://formsubmit.co/Satyanarayana546@gmail.com', {
+    const response = await fetch('https://formsubmit.co/Reddi@Lndservices.in', {
       method: 'POST',
       body: formDataToSend,
     });
