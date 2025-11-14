@@ -9,10 +9,18 @@ import EducationService from './components/EducationService';
 import Navbar from './pages/Navbar';
 import Footer from './pages/Footer';
 import FloatingQuoteWrapper from './components/FloatingQuoteWrapper';
+import Whatsapp from './pages/Whatsapp';
+import Call from './pages/Call';
 import 'remixicon/fonts/remixicon.css';
+
 
 function App() {
   return (
+
+
+    <>
+     <Whatsapp />
+      <Call />
     <Router>
       <div className="App min-h-screen overflow-x-hidden">
         {/* Navbar shown on all pages except FirstScreen */}
@@ -41,6 +49,7 @@ function App() {
         <FloatingQuoteWrapper />
       </div>
     </Router>
+    </>
   );
 }
 
