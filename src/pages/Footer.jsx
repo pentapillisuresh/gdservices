@@ -36,7 +36,7 @@ const Footer = () => {
                   className="hover:text-white transition-colors"
                   onClick={() => handleNavigation('/banking')}
                 >
-                  Banking
+                  Loans
                 </button>
               </li>
               <li>
@@ -52,7 +52,7 @@ const Footer = () => {
                   className="hover:text-white transition-colors"
                   onClick={() => handleNavigation('/education')}
                 >
-                  Education
+                  IT Services
                 </button>
               </li>
             </ul>
